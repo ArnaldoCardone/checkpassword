@@ -14,7 +14,7 @@ import com.cardone.checkpassword.service.CheckPasswordService;
 import reactor.core.publisher.Mono;
 
 @RestController
-@RequestMapping("/checkpassword")
+@RequestMapping("/validate-password")
 public class CheckPasswordController {
     
     @Autowired
